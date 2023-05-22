@@ -73,8 +73,12 @@
         <div style='width: 100px ; hight: 50px ; border: blue 3px solid ; background-color: lightblue' >"
             . $num1 / $num2 .
             "</div>";
+    }elseif ($process == "%") {
+        echo "<p>Result : </p> 
+        <div style='width: 100px ; hight: 50px ; border: blue 3px solid ; background-color: lightblue' >"
+            . $num1 % $num2 .
+            "</div>";
     }
-
     ?>
     </center>
 </body>
